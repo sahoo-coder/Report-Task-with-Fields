@@ -9,7 +9,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.0.20283.0</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-03-05T12:30:07.4287439Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2025-03-05T12:59:05.9193599Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -30,9 +30,6 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>2.76667in</Width>
-                </TablixColumn>
-                <TablixColumn>
                   <Width>2.88333in</Width>
                 </TablixColumn>
               </TablixColumns>
@@ -42,39 +39,7 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox1">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>Posted Purchase Receipt No</Value>
-                                  <Style>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox1</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox3">
+                        <Textbox Name="Textbox2">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -92,7 +57,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <rd:DefaultName>Textbox2</rd:DefaultName>
                           <Style>
                             <Border>
                               <Color>LightGrey</Color>
@@ -111,36 +76,6 @@
                 <TablixRow>
                   <Height>0.25in</Height>
                   <TablixCells>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Posted_Purchase_Receipt_No">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value>=Fields!Posted_Purchase_Receipt_No.Value</Value>
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Posted_Purchase_Receipt_No</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
-                            </Border>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Quantity">
@@ -180,16 +115,15 @@
             <TablixColumnHierarchy>
               <TablixMembers>
                 <TablixMember />
-                <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>2.4563in</Size>
+                    <Size>2.62205in</Size>
                     <CellContents>
-                      <Textbox Name="Textbox7">
+                      <Textbox Name="Textbox20">
                         <CanGrow>true</CanGrow>
                         <KeepTogether>true</KeepTogether>
                         <Paragraphs>
@@ -202,10 +136,12 @@
                                 </Style>
                               </TextRun>
                             </TextRuns>
-                            <Style />
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
                           </Paragraph>
                         </Paragraphs>
-                        <rd:DefaultName>Textbox7</rd:DefaultName>
+                        <rd:DefaultName>Textbox20</rd:DefaultName>
                         <Style>
                           <Border>
                             <Color>LightGrey</Color>
@@ -220,9 +156,47 @@
                     </CellContents>
                   </TablixHeader>
                   <TablixMembers>
-                    <TablixMember />
+                    <TablixMember>
+                      <TablixHeader>
+                        <Size>2.60092in</Size>
+                        <CellContents>
+                          <Textbox Name="Textbox18">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value>Posted Purchase Receipt No</Value>
+                                    <Style>
+                                      <FontWeight>Bold</FontWeight>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style>
+                                  <TextAlign>Left</TextAlign>
+                                </Style>
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Textbox18</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>LightGrey</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                      <TablixMembers>
+                        <TablixMember />
+                      </TablixMembers>
+                    </TablixMember>
                   </TablixMembers>
-                  <KeepWithGroup>After</KeepWithGroup>
                 </TablixMember>
                 <TablixMember>
                   <Group Name="Purchase_Order_No">
@@ -236,7 +210,7 @@
                     </SortExpression>
                   </SortExpressions>
                   <TablixHeader>
-                    <Size>2.4563in</Size>
+                    <Size>2.62205in</Size>
                     <CellContents>
                       <Textbox Name="Purchase_Order_No">
                         <CanGrow>true</CanGrow>
@@ -249,7 +223,9 @@
                                 <Style />
                               </TextRun>
                             </TextRuns>
-                            <Style />
+                            <Style>
+                              <TextAlign>Left</TextAlign>
+                            </Style>
                           </Paragraph>
                         </Paragraphs>
                         <rd:DefaultName>Purchase_Order_No</rd:DefaultName>
@@ -268,7 +244,54 @@
                   </TablixHeader>
                   <TablixMembers>
                     <TablixMember>
-                      <Group Name="Details" />
+                      <Group Name="Posted_Purchase_Receipt_No">
+                        <GroupExpressions>
+                          <GroupExpression>=Fields!Posted_Purchase_Receipt_No.Value</GroupExpression>
+                        </GroupExpressions>
+                      </Group>
+                      <SortExpressions>
+                        <SortExpression>
+                          <Value>=Fields!Posted_Purchase_Receipt_No.Value</Value>
+                        </SortExpression>
+                      </SortExpressions>
+                      <TablixHeader>
+                        <Size>2.60092in</Size>
+                        <CellContents>
+                          <Textbox Name="Posted_Purchase_Receipt_No">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value>=Fields!Posted_Purchase_Receipt_No.Value</Value>
+                                    <Style />
+                                  </TextRun>
+                                </TextRuns>
+                                <Style>
+                                  <TextAlign>Left</TextAlign>
+                                </Style>
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Posted_Purchase_Receipt_No</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>LightGrey</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                      <TablixMembers>
+                        <TablixMember>
+                          <Group Name="Details" />
+                        </TablixMember>
+                      </TablixMembers>
                     </TablixMember>
                   </TablixMembers>
                 </TablixMember>
